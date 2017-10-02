@@ -44,5 +44,5 @@ class Owner
     self.pets[:dogs].each {|dog| dog.mood = "happy"}
   end
   
-  
+
 end
