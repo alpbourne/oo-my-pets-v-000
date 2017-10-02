@@ -2,16 +2,21 @@ class Owner
 
   attr_accessor :owner
 
+  @@all = []
+
+  def initialize(name, mood = "nervous")
+    @name = name
+    @mood = mood
+  end
+
   def initialize
     @owner = owner
   end
 
-  @@all = []
-
   def self.all
     @@all
   end
-  
+
   def self.reset_all
     self.all.clear
   end
