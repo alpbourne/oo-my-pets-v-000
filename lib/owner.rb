@@ -4,11 +4,6 @@ class Owner
 
   @@all = []
 
-  def initialize(name, mood = "nervous")
-    @name = name
-    @mood = mood
-  end
-
   def initialize
     @owner = owner
   end
